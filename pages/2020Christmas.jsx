@@ -10,7 +10,13 @@ const TheLilyPad = () => {
         <div className="w-full">
             <div className="w-screen h-[30vh] lg:h-[40vh] relative">
                 <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
-                <Image className="absolute z-1" layout="fill" objectFit="cover" src={popUp} />
+                <Image
+                    className="absolute z-1"
+                    layout="fill"
+                    objectFit="cover"
+                    src={popUp}
+                    alt="/"
+                />
                 <div className="absolute z-10 p-2 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%]">
                     <h2 className="py-2 text-white font-bold">2020 Christmas</h2>
                     <h3 className="text-white uppercase text-xs">C# / Unity</h3>
